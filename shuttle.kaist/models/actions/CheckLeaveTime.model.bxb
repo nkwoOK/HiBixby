@@ -1,0 +1,84 @@
+action (CheckLeaveTime) {
+  type(Search)
+  description (__DESCRIPTION__)
+
+  collect {
+     input (shuttleType){
+      type(ShuttleType)
+      min (Required) max (One)
+      validate{
+        if (!exists(shuttleType)){
+          halt{
+            dialog{
+              template ("어떤 버스를 기다리는지 잘 모르겠네요")
+            }
+          }
+        }
+      }
+    }
+    
+    input (departure) {
+      type (Departure)
+      min (Required) max (One)
+      default-init{
+        if (shuttleType =='OLEV'){
+          intent{
+            goal: CheckLeaveTime
+            value: Departure(학사식당)
+          }
+        }
+        else-if (shuttleType == '문지셔틀' || shuttleType =='월평셔틀'){
+          intent{
+            goal: CheckLeaveTime
+            value: Departure(대강당)
+          }
+        }
+      }
+    }
+    
+     // default 설정을 하려면 shuttletype을 알아야 하는데 앧션에서 할지 코드에서 할지 고민임.
+   
+
+    input (time) {
+      type (time.DateTimeExpression) // 4개의 종류를 다 통합해버림. 
+      min (Optional) max (One)
+      
+      default-select{ //with learning?
+//         with-learning{
+//           
+//         } geo에서 많이 씀. 광주 가 나오면 그 중 하나 , 사용자가 바꿀 수 있음. 몇번 사용자가 고르면 ㅇㅇ
+        with-rule{
+          select-first
+        }
+      }
+      
+      
+    } //default 설정해줘야?
+    // datatimeexpression? 
+  }
+  
+  output (LeaveResult){
+    throws{
+      error(NoBus){
+        on-catch{
+          halt{
+            dialog{
+              template (시간 없다는 건데 나중에 발전시킬때 막차 시간도 보여줄 수 있을 듯.)
+            }
+          }
+        }
+    }
+      error(InvalidType){
+        on-catch{
+          halt{
+            dialog{
+              template (그런 셔틀은 없어요~)
+            }
+          }
+        }
+      }
+    }
+
+    }
+  }
+

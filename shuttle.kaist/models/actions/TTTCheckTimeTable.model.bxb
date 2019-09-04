@@ -1,0 +1,17 @@
+action (CheckTimeTable) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (shuttletype) {
+      type (ShuttleType)
+      min (Required) max (One)
+    }
+//     input (shuttletype) {
+//       type (ShuttleType)
+//       min (Required) max (One)
+//     }
+//     주말 추가해야함
+    
+  }
+  output (TableResult)
+}

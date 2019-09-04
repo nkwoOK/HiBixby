@@ -1,0 +1,10 @@
+train (t-fiji4zhzflv9fnmhrt2wkfvdv) {
+  utterance ("[g:SearchBooksResult] 도서관에 (조앤 롤링)[v:Author]이 쓴 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgyQWdY6lJRn5RQzMDIwMTECSAUwzMkAAExADxQA=)
+  last-modified (1550033051871)
+}
+train (t-fn1i9nlezzkvglz3awz7x0m6t) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에 (빌릴 수 있는)[v:Borrowable:이용가능] (다이아몬드)[v:Author]가 쓴 (총균쇠)[v:Title] 책 있어?")
+  plan (Y2BnUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQRaLvFN+UVF+eWJSTipW7T4Q2jWvNJdBDb/xdZl5mSWZiTkMkljUOZaWZOQXMUhgkQrJLAFazsbAyMDEwMzAwsAKZDMAeSDIAoSMDMiAFYxBKoGqAA==)
+  last-modified (1550033052072)
+}

@@ -1,0 +1,3 @@
+integer (RemainTime) {
+  description (버스 올 때까지 몇 분?)
+}

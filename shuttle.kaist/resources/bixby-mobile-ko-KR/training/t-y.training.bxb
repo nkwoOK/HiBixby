@@ -1,0 +1,5 @@
+train (t-yg8tzprdwnc1p6bmhzdhbjauo) {
+  utterance ("[g:RequiredResult] (희망관)[v:Destination:'희망, 다솜관'] 가는데 (정문)[v:Departure:정문]에서 출발하면 얼마나 걸려?")
+  plan (Y2BhUCzISaxML8ovzUvRK84oLSnJSdULSi0szSxKTQlKLS7NKWFQwaLEOSM1ORumLiQzN5VBBosql9SCxKKS0qJUBjmsssUlmXmJJZn5eQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1550026097419)
+}

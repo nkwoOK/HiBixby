@@ -1,0 +1,13 @@
+structure (LeaveResult) {
+  description (Check shuttle board time )
+
+  property (leaveTime) {
+    type (LeaveTime)// 시간에 대한 연산을 수행할 것인데 어떤 형태??
+    min (Optional) max (Many)
+  }
+  property (remainTime){
+    type(RemainTime)
+    min (Optional) max (One)
+  }
+
+}

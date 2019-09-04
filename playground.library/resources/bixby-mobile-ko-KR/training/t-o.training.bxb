@@ -1,0 +1,5 @@
+train (t-oil2agi6xjso0616rplurleaf) {
+  utterance ("[g:SearchBooksResult] 도서관에서 (외로움)[v:Category]에 관한 책 찾아줘")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgzQWdc6JJanp+UWVDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033053385)
+}

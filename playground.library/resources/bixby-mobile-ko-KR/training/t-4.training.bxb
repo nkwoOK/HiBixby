@@ -1,0 +1,10 @@
+train (t-4a860lccgimvo1ff02i5sf1wd) {
+  utterance ([g:SearchBooksResult] 도서관에서 책 찾아줘)
+  plan (Y2BkUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWEAAUYQAQA=)
+  last-modified (1549969923047)
+}
+train (t-4zhnerny8578yz0i256sxc3am) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에서 (인간관계)[v:Category] 관련 책 찾아줘")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw68Kq7wPhHbNK81lUMOvvy4zL7MkMzGHQRqLOufEktT0/KJKBhYGRgYmBmYgzQBkMQJZjAwwwAzELEBZBgA=)
+  last-modified (1550033048210)
+}

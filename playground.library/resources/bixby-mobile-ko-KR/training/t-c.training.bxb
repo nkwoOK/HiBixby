@@ -1,0 +1,5 @@
+train (t-c1uxiau47qdv2ajoos8w51l0t) {
+  utterance ("[g:SearchBooksResult] (문화관)[v:LibraryEnum:학술문화관]에서 (토지)[v:Title] 찾아줘")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw68Kq7wPhHbNK81lUMOvvy4zL7MkMzGHQQKLupDMkpxUBhYGRgYmBmYgzQBkMQJZjAwwwAzETCAZAA==)
+  last-modified (1550033051685)
+}

@@ -1,0 +1,10 @@
+train (t-90s96zcksccxyzxa6bxhfyll4) {
+  utterance ("[g:RequiredResult] (오리연못)[v:Departure:오리연못]에서 (갤러리아)[v:Destination:갤러리아]까지 (월평셔틀)[v:ShuttleType:월평셔틀] 얼마나 걸려?")
+  plan (Y2BlUCzISaxML8ovzUvRK84oLSnJSdULSi0szSxKTQlKLS7NKWFQwaLEOSM1ORumLiQzN5VBBosql9SCxKKS0qJUBjmsssUlmXmJJZn5eVjlgyF0SGVBKgMLAyMDEwMzkGYAsiAQBkBiUDkA)
+  last-modified (1548310877148)
+}
+train (t-9z7dgoayzgscxk4qp4lqvcwcs) {
+  utterance ("[g:RequiredResult] (오리연못)[v:Departure:오리연못]에서 (정문)[v:Destination:정문]까지 (OLEV)[v:ShuttleType:OLEV] 얼마나 걸려?")
+  plan (Y2BlUCzISaxML8ovzUvRK84oLSnJSdULSi0szSxKTQlKLS7NKWFQwaLEOSM1ORumLiQzN5VBBosql9SCxKKS0qJUBjmsssUlmXmJJZn5eVjlgyF0SGVBKgMLAyMDEwMzkGYAsiAQBkBiUDkA)
+  last-modified (1548310900952)
+}

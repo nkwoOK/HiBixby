@@ -1,0 +1,21 @@
+action (SearchISBN) {
+  // type()
+  // description (__DESCRIPTION__)
+  collect {
+    input (iSBN) {
+      type (ISBN)
+      min (Optional) max (One)
+    }
+  }
+  output (ISBNResult){
+    throws{
+      error (NoISBN){
+        on-catch{
+          halt{
+            dialog(ISBN 정보가 누락되어 있습니다.)
+          }
+        }
+      }
+    }
+  }
+}

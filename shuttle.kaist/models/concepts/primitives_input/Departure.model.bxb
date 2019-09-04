@@ -1,0 +1,31 @@
+enum (Departure) {
+  description (Departure of bus)
+  symbol (학사식당)
+  symbol (스포츠 컴플렉스)
+  symbol (창의학습관)
+  symbol (파팔라도 메디컬센터)
+  symbol (나노종합기술원)
+  symbol (정문)
+  symbol (오리연못)
+  symbol (교육지원동)
+  symbol (나눔관)
+  symbol (희망, 다솜관)
+  
+  symbol (문지 캠퍼스)
+  symbol (화암 기숙사)
+  symbol (로덴하우스 앞)
+  symbol (본교)
+  symbol (교수아파트 앞)
+  
+  symbol (영빈관)
+  symbol (대강당)
+  symbol (본관)
+  // symbol (오리연못)
+  symbol (충대앞)
+  symbol (월평역 1번출구)
+  symbol (갤러리아)
+  symbol (정부청사시외버스)
+  symbol (월평역 3번출구)
+  
+}
+

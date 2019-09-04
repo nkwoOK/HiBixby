@@ -1,0 +1,4 @@
+structure (ArriveTime) {
+  description (오는 시간 룰루)
+  // extends(viv.time.DateTimeExpression)
+}

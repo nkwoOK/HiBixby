@@ -1,0 +1,5 @@
+train (t-tmhuuxopzm4fustsqpei6if1r) {
+  utterance ("[g:SearchBooksResult] 도서관에 (대출 가능한)[v:Borrowable:이용가능] (조지 오웰)[v:Author]이 쓴 책 있어?")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQRaLvFN+UVF+eWJSTiqDGn7tdZl5mSWZiTkMkljUOZaWZOQXMbAwMDIwMTADaQYgixHIYmSAAWYgZgHKMgAA)
+  last-modified (1550033054787)
+}

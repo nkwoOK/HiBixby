@@ -1,0 +1,9 @@
+vocab(playground.library.LibraryEnum){
+  "학술문화관" {"학술문화관" "본원" "본캠" "문화관" }
+    "문지" {"문지"}
+      "서울" {"서울" "홍릉"}
+  //   symbol (학술문화관)
+  // symbol(본원)
+  // symbol(문지)
+  // symbol(서울)
+}

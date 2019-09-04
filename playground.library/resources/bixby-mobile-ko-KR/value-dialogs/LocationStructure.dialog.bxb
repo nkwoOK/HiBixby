@@ -1,0 +1,12 @@
+dialog (Value) {
+  match: playground.library.LocationStructure(this)
+  
+  // template ("#{size(this)}")
+  
+  // templatse ("fff")
+  template ("\n #{value(this.location)}, #{value(this.borrowable)}")
+  // template("[#{value(this[0].location)}, #{value(this[0].borrowable)}\n] [#{value(this[1].location)}, #{value(this[1].borrowable)}\n] [#{value(this[2].location)}, #{value(this[2].borrowable)}]")
+//   
+  // 앞에 slashn 안됨다. 
+//   
+}

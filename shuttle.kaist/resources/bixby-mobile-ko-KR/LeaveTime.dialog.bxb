@@ -1,0 +1,19 @@
+dialog (Result) {
+  match{
+    LeaveResult(this){
+      from-output: playground.shuttle.CheckLeaveTime(action){
+        from-input: playground.shuttle.Departure(departure)
+        from-input: playground.shuttle.ShuttleType(shuttletype)
+        from-input: time.DateTimeExpression(time)
+      }
+    }
+  }
+  
+  if (!exists(time)){
+    template("#{value(departure)}에서 출발하는 #{value(shuttletype)}은(는) #{value(this.leaveTime)}에 있네요. #{value(this.remainTime)}분 남았어요.")
+  }
+  else{
+    template("#{value(time.dateTime.time.hour)}시 쯤에 #{value(departure)}에서 출발하는 #{value(shuttletype)}은(는) #{value(this.leaveTime)}에 있네요. ")
+  }
+  // template("")
+}

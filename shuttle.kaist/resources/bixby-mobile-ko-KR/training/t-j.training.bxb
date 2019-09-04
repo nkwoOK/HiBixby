@@ -1,0 +1,5 @@
+train (t-jp0pdo4lz328r88ascracdapf) {
+  utterance ("[g:LeaveResult] (2시)[v:time.DateTimeExpression]쯤 (학사식당)[v:Departure:학사식당]에 (올레브)[v:ShuttleType:OLEV] 언제 와?")
+  plan (Y2BlkCvISaxML8ovzUvRK84oLSnJSdXzSU0sSw1KLS7NKWFQxCLvnJGanA1WFJKZm8ogg0WJS2pBYlFJaVEqVguCIXRIZUEqg3RZZpleCdAcPZfEErCBrhUFRanFxZn5eQwsDIwMTAzMQJoByIJAGACJQeUA)
+  last-modified (1550025082079)
+}

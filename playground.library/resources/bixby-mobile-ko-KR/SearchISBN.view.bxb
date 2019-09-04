@@ -1,0 +1,16 @@
+result-view{
+  match: ISBNResult(this)
+
+  app-launch{
+    payload-uri{
+      if(exists(this.uri)){
+        template("#{value(this.uri)}")
+      }
+    }
+  }
+
+
+  //   app-launch{
+  //     
+  //   }
+}

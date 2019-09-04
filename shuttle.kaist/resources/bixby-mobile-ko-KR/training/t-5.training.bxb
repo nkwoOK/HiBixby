@@ -1,0 +1,5 @@
+train (t-52c3sziyt8y5gnt349rnqi5tq) {
+  utterance ("[g:LeaveResult] (3시)[v:time.DateTimeExpression] (올레브)[v:ShuttleType:OLEV] 언제 와?")
+  plan (bU1RCsIwFItOT6EMvEAv4fzza+4CZQZXrFtpX4u7vaXDv77wSCAhwRGts3p9+SXOTxWmKGKp7tSJPUO0gkvFv04c3yU0mA9xrkQ6Ou0lelYHHhsPqyNOySQluUd1Wkrh7es8QzDLjAN22KPJjKw2/K8pn50f)
+  last-modified (1548647636188)
+}

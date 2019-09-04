@@ -1,0 +1,10 @@
+train (t-bmw3h35gps77kkf7ydl7nols7) {
+  utterance ("[g:SearchBooksResult] 도서관에 (나니아 연대기)[v:Title] 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033049909)
+}
+train (t-bvs8dkvsaqraxba9l1c2cv3qp) {
+  utterance ("[g:SearchBooksResult] 도서관에 (빌릴 수 있는)[v:Borrowable:이용가능] (셰익스피어)[v:Author]가 쓴 책 있어?")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQRaLvFN+UVF+eWJSTiqDGn7tdZl5mSWZiTkMkljUOZaWZOQXMbAwMDIwMTADaQYgixHIYmSAAWYgZgHKMgAA)
+  last-modified (1550033050095)
+}

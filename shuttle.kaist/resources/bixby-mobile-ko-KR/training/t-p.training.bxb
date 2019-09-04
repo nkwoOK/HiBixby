@@ -1,0 +1,5 @@
+train (t-pa886db7velpdza2ws4tia8pl) {
+  utterance ("[g:RequiredResult] (정문)[v:Departure:정문]에서 (나눔관)[v:Destination:나눔관]까지 알마나 걸려?")
+  plan (Y2BhUCzISaxML8ovzUvRK84oLSnJSdULSi0szSxKTQlKLS7NKWFQwaLEOSM1ORumLiQzN5VBBosql9SCxKKS0qJUBjmsssUlmXmJJZn5eQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1548311069158)
+}

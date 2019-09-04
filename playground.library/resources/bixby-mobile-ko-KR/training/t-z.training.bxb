@@ -1,0 +1,10 @@
+train (t-z14lspxd4pgwnwptkox865wpe) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에서 (총균쇠)[v:Title] 책 (빌릴 수 있는)[v:Borrowable:이용가능]거 찾아줘")
+  plan (Y2BjUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQRaLvFN+UVF+eWJSTipW7T4Q2jWvNJdBDb/xdZl5mSWZiTkMEljUhWSWAG1gZWBkYGJgZmABshiAbBBkAWIEYAFikAqgPAA=)
+  last-modified (1550033055944)
+}
+train (t-z3rs27755da6nv6xap8bbrp00) {
+  utterance ("[g:SearchBooksResult] (문화관)[v:LibraryEnum:학술문화관]에서 (인어공주)[v:Title] 책 찾아줘")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw68Kq7wPhHbNK81lUMOvvy4zL7MkMzGHQQKLupDMkpxUBhYGRgYmBmYgzQBkMQJZjAwwwAzETCAZAA==)
+  last-modified (1550033056152)
+}

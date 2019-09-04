@@ -1,0 +1,7 @@
+structure (TableResult) { //how to show image
+  description (Show time table of shuttle buses)
+  property (table) {
+    type (Table)
+    min (Optional) max (One)
+  }
+}

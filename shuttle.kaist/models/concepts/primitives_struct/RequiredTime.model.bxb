@@ -1,0 +1,3 @@
+integer (RequiredTime) {
+  description (time during departure to destination)
+}

@@ -1,0 +1,34 @@
+endpoints {
+  authorization {
+    none
+    // or add OAuth configuration
+    // oauth {
+    //   authorize-endpoint (__ENDPOINT__)
+    //   client-id (__CLIENT_ID__)
+    //   client-secret (__CLIENT_SECRET__)
+    //   grant-type (__AUTHORIZATION_CODE__)
+    //   provider (__PROVIDER__)
+    //   scope (__SCOPE__)
+    //   token-endpoint (__TOKEN_ENDPOINT__)
+    // }
+  }
+
+  action-endpoints {
+    action-endpoint (CheckRequiredTime) {
+      accepted-inputs (departure, destination, shuttleType)
+      local-endpoint ("checkrequiredtime.js")
+    } 
+    action-endpoint (CheckLeaveTime) {
+      accepted-inputs (departure, time, shuttleType)
+      local-endpoint ("checkleavetime.js")
+    } 
+ 
+
+    // action-endpoint (__ACTION_NAME__) {
+    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+    //   remote-endpoint (__ENDPOINT_URL__) {
+    //     method (__HTTP_METHOD_USED__)
+    //   }
+    // }
+  }
+}

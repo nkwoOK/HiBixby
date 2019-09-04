@@ -1,0 +1,5 @@
+train (t-ak6w8jf6dgmy62kqa5vrn2665) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에 (빌릴 수 있는)[v:Borrowable:이용가능] (조앤 롤링)[v:Author]이 쓴 (해리포터)[v:Title] 책 있어?")
+  plan (Y2BnUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQRaLvFN+UVF+eWJSTipW7T4Q2jWvNJdBDb/xdZl5mSWZiTkMkljUOZaWZOQXMUhgkQrJLAFazsbAyMDEwMzAwsAKZDMAeSDIAoSMDMiAFYxBKoGqAA==)
+  last-modified (1550033049723)
+}

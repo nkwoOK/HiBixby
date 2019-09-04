@@ -1,0 +1,26 @@
+action (CheckBoardTime) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (shuttletype) {
+      type (ShuttleType)
+      min (Required) max (One)
+    }
+    
+    input (departure) {
+      type (Departure)
+      min (Required) max (One)
+    }
+    input (destination) {
+      type (Destination)
+      min (Required) max (One)
+    }
+    input (time) {
+      type (Time)
+      min (Required) max (One)
+    } //default 설정해줘야
+  }
+  
+  // optional- 막차 첫차 고려해주면 좋음. 
+  output (ArriveResult) //아직 수정 ㄴ
+}

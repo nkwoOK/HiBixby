@@ -1,0 +1,7 @@
+structure (ArriveResult) {
+  description (Check arrived shuttle time )
+  property (arrivetime) {
+    type (ArriveTime)
+    min (Optional) max (One)
+  }
+}

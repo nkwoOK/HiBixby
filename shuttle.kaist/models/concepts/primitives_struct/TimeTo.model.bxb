@@ -1,0 +1,3 @@
+integer (TimeTo) {
+  description (__DESCRIPTION__)
+}

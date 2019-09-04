@@ -1,0 +1,5 @@
+train (t-bwfit2qr4dc4atjzsvxrw0bc2) {
+  utterance ("[g:RequiredResult] (오리연못)[v:Departure:오리연못]에서 (갤러리아)[v:Destination:갤러리아]까지 (OLEV)[v:ShuttleType:OLEV] 얼마나 걸려?")
+  plan (Y2BlUCzISaxML8ovzUvRK84oLSnJSdULSi0szSxKTQlKLS7NKWFQwaLEOSM1ORumLiQzN5VBBosql9SCxKKS0qJUBjmsssUlmXmJJZn5eVjlgyF0SGVBKgMLAyMDEwMzkGYAsiAQBkBiUDkA)
+  last-modified (1548652518515)
+}

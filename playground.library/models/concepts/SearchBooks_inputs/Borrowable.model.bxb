@@ -1,0 +1,7 @@
+enum (Borrowable) {
+  symbol(이용가능)
+  symbol(대출중)
+  symbol (소재불명)
+  symbol (파손)
+  description (빌릴 수 있는가?)
+}

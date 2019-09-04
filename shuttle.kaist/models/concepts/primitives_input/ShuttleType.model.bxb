@@ -1,0 +1,15 @@
+ enum (ShuttleType) {
+  description (Shuttle bus types of KAIST)
+  symbol (OLEV)
+  // symbol (교내)
+  
+  symbol (문지셔틀)
+  // symbol (화암)
+  
+  symbol (월평셔틀)
+  // symbol (둔산)
+  
+  // symbol (서울)
+  
+  
+}

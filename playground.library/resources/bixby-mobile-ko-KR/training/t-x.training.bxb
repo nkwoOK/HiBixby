@@ -1,0 +1,5 @@
+train (t-xuzcdn0blbxm4zeyyni1p979j) {
+  utterance ("[g:SearchBooksResult] 도서관에 (철학)[v:Category] 분야 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgzQWdc6JJanp+UWVDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033055569)
+}

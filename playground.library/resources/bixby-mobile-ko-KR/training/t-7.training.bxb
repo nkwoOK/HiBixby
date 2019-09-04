@@ -1,0 +1,20 @@
+train (t-76nx1ik50dat2f7551310d30l) {
+  utterance ("[g:SearchBooksResult] (법정)[v:Author] 작가가 쓴 책 더 찾아줘")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgyQWdY6lJRn5RQzMDIwMTECSAUwzMkAAExADxQA=)
+  last-modified (1550033048876)
+}
+train (t-79h9vvugm7l64kxya3ld6xso4) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에서 (수학의 정석)[v:Title] 찾아줘")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw68Kq7wPhHbNK81lUMOvvy4zL7MkMzGHQQKLupDMkpxUBhYGRgYmBmYgzQBkMQJZjAwwwAzETCAZAA==)
+  last-modified (1550033049071)
+}
+train (t-7n8hkprfhfwu09dyo0g2q79ju) {
+  utterance ("[g:SearchBooksResult] 도서관에 (정의란 무엇인가)[v:Title]라는 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033049267)
+}
+train (t-7za5rpecabivvh8hk3lyf7pvd) {
+  utterance ("[g:SearchBooksResult] 도서관에 (빈센트 반 고흐)[v:Author]가 쓴 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgyQWdY6lJRn5RQzMDIwMTECSAUwzMkAAExADxQA=)
+  last-modified (1550033049459)
+}

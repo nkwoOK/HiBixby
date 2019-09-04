@@ -1,0 +1,18 @@
+dialog (Result) {
+  match { 
+    RequiredResult(this){
+      from-output: playground.shuttle.CheckRequiredTime (action){
+        from-input: playground.shuttle.Departure(departure)
+        from-input: playground.shuttle.Destination(destination)
+      }
+    }
+  }
+  // if(!exists(check.departure)){
+  //   template ("출발지가 없습니다")
+  // }
+  // else-if(!exists(check.))
+  // if()
+  
+  template("#{value(departure)}에서 #{value(destination)}까지 걸리는 시간은 #{value(this.requiredTime)}분 입니다!")
+  }
+

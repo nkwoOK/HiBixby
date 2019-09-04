@@ -1,0 +1,29 @@
+result-view{
+  match{
+    LeaveResult(this){
+      from-output: CheckLeaveTime(action){
+        from-input: ShuttleType(shuttletype)
+        }
+    }
+  }
+  
+  render{
+    layout{
+      section{
+        content{
+          if (shuttletype=='OLEV'){
+            paragraph{
+              style(Detail_L)
+              value(OLEV는 주중 8시 45분부터 16시 55분까지 매시 15, 25, 45, 55분에 학사식당에서 출발합니다(점심시간 11:55~12:45까지는 운행하지 않음).)  
+            }
+          }
+        }
+      }
+    }
+  }
+  
+//   conversation-drivers{
+//     
+//   }
+  
+}

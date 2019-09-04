@@ -1,0 +1,10 @@
+train (t-9gi4y44wezk2cq8rtevy4m92t) {
+  utterance ("[g:SearchBooksResult] 도서관에 (트와일라잇)[v:Title] 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033050298)
+}
+train (t-9xgdlg75pk5nnepgt6nnax94c) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에 (시스템 프로그래밍)[v:Title] 있어?")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw68Kq7wPhHbNK81lUMOvvy4zL7MkMzGHQQKLupDMkpxUBhYGRgYmBmYgzQBkMQJZjAwwwAzETCAZAA==)
+  last-modified (1550033050493)
+}

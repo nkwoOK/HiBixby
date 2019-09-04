@@ -1,0 +1,20 @@
+train (t-ec735tzimqqsvp3jpjl75e9oz) {
+  utterance ("[g:SearchBooksResult] 도서관에 (수학의 정석)[v:Title] 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033050866)
+}
+train (t-edzuqzrru5ebivlqozmdiqdqi) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에 있는 책 찾아줘")
+  plan (Y2BmUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw68Kq7wPhHbNK81lYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1549970024309)
+}
+train (t-ewfxq9774m32ek4yop4804iq8) {
+  utterance ("[g:SearchBooksResult] 도서관에 (총균쇠)[v:Title] 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033051238)
+}
+train (t-ewomq6mr7tuhewnojrk7r9020) {
+  utterance ("[g:SearchBooksResult] 도서관에 (빌릴 수 있는)[v:Borrowable:이용가능] (허클베리 핀의 모험)[v:Title] 책 찾아줘")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQRaLvFN+UVF+eWJSTiqDGn7tdZl5mSWZiTkMEljUhWSWAE1gYWBkYGJgBtIMQBYjkMXIAAPMQMwEkgEA)
+  last-modified (1550033051424)
+}

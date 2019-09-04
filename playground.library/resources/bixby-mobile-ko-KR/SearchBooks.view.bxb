@@ -1,0 +1,73 @@
+result-view{
+  match : SearchBooksResult(result){
+      from-output: SearchBooks(action)
+    }
+
+  render{
+    if(size(result)>1){
+      list-of (result){
+        // has-details (true)
+        
+        where-each (each){ //for each 느낌임.
+          layout-macro (book-summary-macro){
+            param (result){
+              expression (each)
+
+
+            }
+          }
+        }
+      }
+    }
+
+    else{
+      //       layout-match (result) {
+      //         mode (Details)
+      //         
+      //       }
+      layout-macro (book-detail-macro){
+        param (result){
+          expression(result)
+        }
+
+      }
+      
+      //detail view 해놔야지 뭐
+    } //일단은 한개일때 빼놓았음. 
+    // 
+  }
+
+  conversation-drivers{
+    
+    if (size(result)>1){ 
+
+      // 처음부터 조건부로 검색하는 경우와 충돌?
+
+      if(!exists(action.borrowable)){
+        conversation-driver{
+          template ("대출 가능한 책들만 나열해줘")
+        }
+      }
+      if(!exists(action.libraryEnum)){
+        conversation-driver{
+          template ("학술문화관에 있는 책들만 찾아줘")
+        }
+      }
+      // if(exists(action.author)){
+      //   conversation-driver{
+      //     template ("이 작가가 쓴 책 더 찾아줘")
+      //   }
+      // }
+    }
+    else{
+      conversation-driver{
+        template ("#{value(result.author)} 작가가 쓴 책 더 찾아줘")
+      }
+    }
+  }
+}
+
+
+
+//   
+

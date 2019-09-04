@@ -1,0 +1,20 @@
+dialog (Result) {
+  match{
+    SearchBooksResult(this){
+      from-output: SearchBooks(action)
+    }
+  }
+
+  if(action.borrowable=='이용가능' && exists(action.libraryEnum)){
+    template ("#{value(action.libraryEnum)}에서 대출 가능한 #{(size(this))}개의 책을 찾았어요!")
+  }
+  else-if (action.borrowable=='이용가능'){
+    template ("대출 가능한 #{(size(this))} 개의 책을 찾았어요!")
+  }
+  else-if (exists(action.libraryEnum)){
+    template ("#{value(action.libraryEnum)}에 있는 #{size(this)}개의 책을 찾았어요!")
+  }
+  else{
+    template("#{(size(this))} 개의 책을 찾았어요!")
+  }
+}

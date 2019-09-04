@@ -1,0 +1,19 @@
+capsule {
+  id (playground.shuttle)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+    target (bixby-mobile-ko-KR)
+    
+  }
+  
+  capsule-imports{
+    import (viv.entity){
+      as (entity) version(3.7.33)
+    }
+    import(viv.time){
+      as (time) version-from(entity)
+    } 
+  }
+}

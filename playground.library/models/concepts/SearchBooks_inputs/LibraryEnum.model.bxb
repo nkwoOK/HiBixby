@@ -1,0 +1,7 @@
+enum (LibraryEnum) {
+  description (도서관 종류)
+  symbol (학술문화관)
+  // symbol(본원)
+  symbol(문지)
+  symbol(서울)
+}

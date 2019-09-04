@@ -1,0 +1,5 @@
+train (t-hdorxg4a2wkjbi1uuo8pk9cpk) {
+  utterance ("[g:SearchBooksResult] 도서관에 (조앤 롤링)[v:Author]의 (해리포터)[v:Title] 있어?")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgyQWdY6lJRn5RQwSWKRCMktyUhlYGBgZmBiYgTQDmMUEJGGAGYyBMgA=)
+  last-modified (1550033052636)
+}

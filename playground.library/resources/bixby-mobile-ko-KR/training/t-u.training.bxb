@@ -1,0 +1,10 @@
+train (t-u40edsnladreqjeevtyule63u) {
+  utterance ("[g:SearchBooksResult] 도서관에 (롤링)[v:Author]의 (해리포터)[v:Title] 있어?")
+  plan (Y2BlUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgyQWdY6lJRn5RQwSWKRCMktyUhlYGBgZmBiYgTQDmMUEJGGAGYyBMgA=)
+  last-modified (1550033055126)
+}
+train (t-uyeuf4kz1lbvdgrxtgdubvmn3) {
+  utterance ("[g:SearchBooksResult] 도서관에 (해리 포터)[v:Title] 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1549968137173)
+}

@@ -1,0 +1,64 @@
+layout-macro-def(book-summary-macro) {
+  params {
+    param (result) {
+      type (SearchBooksResult)
+      min (Required)
+      max (Many) // 하나에 대한 거임
+    }
+  }
+  content { 
+    compound-card{
+
+      content{
+        // single-line{
+        //   text{
+        //     style(Detail_L_Soft)
+        //     value
+        //   }
+        // }
+
+        paragraph{
+          style(Detail_L)
+          value{
+            // template ("999")
+            template ("#{value(result.title)}")
+          }
+        }
+        paragraph{
+          style(Detail_M)
+          value{
+            if(exists(result.period)){
+              template ("#{value(result.author)}, #{value(result.period)}")
+            }
+            else{
+              template ("#{value(result.author)}")
+            }
+          }
+        } 
+
+        paragraph{
+
+          style(Detail_M) 
+          value{
+            // template ("왜 안나오지")
+            template ("#{value(result.locationStructure)}") // 한 문장의 길이 때문임. 
+          }
+          // value("#{value(book.locationstructure)}")
+        }
+
+        single-line{
+          image{
+            style (Detail_M_Soft)
+            url("#{value(result.fileName)}")
+          }
+        }
+
+      }
+      // value("#{value(book.locationstructure.location)}, #{value(book.locationstructure.borrowable)}")
+    }
+  }
+}
+
+
+
+

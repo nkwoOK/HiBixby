@@ -1,0 +1,5 @@
+vocab(playground.shuttle.ShuttleType){
+      "OLEV" {"OLEV" "올레브" "교내셔틀"}
+      "월평셔틀" {"월평셔틀" "월평"}
+      "문지셔틀" {"문지셔틀" "문지" "화암" "화암셔틀"}
+}

@@ -1,0 +1,10 @@
+train (t-r766pcyxxdjcppnjjw0jdv7xs) {
+  utterance ("[g:SearchBooksResult] 도서관에 (댄 브라운)[v:Author]이 쓴 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgyQWdY6lJRn5RQzMDIwMTECSAUwzMkAAExADxQA=)
+  last-modified (1550033054388)
+}
+train (t-ra78n93ogbps5lq9nqjghnnan) {
+  utterance ("[g:SearchBooksResult:continue] 이 {[g:Author] 작가}가 쓴 책 더 찾아줘")
+  enabled (false)
+  last-modified (1549864846483)
+}

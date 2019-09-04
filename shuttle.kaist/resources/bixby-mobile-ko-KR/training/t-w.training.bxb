@@ -1,0 +1,5 @@
+train (t-wlw9rshvks58523l4wvu1eoit) {
+  utterance ("[g:RequiredResult] (카마)[v:Departure:학사식당]에서 (파팔)[v:Destination:'파팔라도 메디컬센터']까지 얼마나 걸려?")
+  plan (Y2BhUCzISaxML8ovzUvRK84oLSnJSdULSi0szSxKTQlKLS7NKWFQwaLEOSM1ORumLiQzN5VBBosql9SCxKKS0qJUBjmsssUlmXmJJZn5eQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1548310997994)
+}

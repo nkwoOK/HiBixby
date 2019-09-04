@@ -1,0 +1,64 @@
+layout-macro-def(locationStructure-macro) {
+  params {
+    param (locationStructure) {
+      type (LocationStructure)
+      min (Required)
+      max (One)
+    }
+  }
+
+  //   content {
+  //     hbox{
+  //       content{
+  //         vbox{
+  //           content{
+  //             single-line{
+  //               text{
+  //                 style(Detail_M)
+  //                 value("#{value(locationStructure)}")
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  content{
+
+    paragraph{
+      style{ // 고쳐야함
+        if(locationStructure.borrowable!='이용가능'){
+          template(Detail_L_Soft)
+        }
+        else{
+          template(Detail_L)
+        }
+      }
+      value{
+        // template ("ff")
+        template ("#{value(locationStructure)}")
+      }
+    }
+  }
+}
+
+
+
+
+
+//     
+//     if (locationStructure.borrowable!='이용가능'){
+//       text{
+//         style(Detail_M_Soft)
+//         value("#{value(locationStructure)} \n")
+//       }
+//     }
+//     else{
+//       text{
+//         style(Detail_L)
+//         value("#{value(locationStructure)}")
+//       }
+//     }
+//   }
+// }
+

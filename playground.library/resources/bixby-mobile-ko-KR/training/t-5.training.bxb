@@ -1,0 +1,5 @@
+train (t-59hn0g1zwfh59lrzuu81oqw2g) {
+  utterance ("[g:SearchBooksResult:continue] (건강)[v:undefined] 관련된 거는?")
+  enabled (false)
+  last-modified (1549502800381)
+}

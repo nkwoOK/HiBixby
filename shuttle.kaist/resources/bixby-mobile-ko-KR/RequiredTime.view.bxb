@@ -1,0 +1,68 @@
+result-view{
+  match{
+    RequiredResult(this){
+      // from-property: playground.shuttle.Shuttletype
+    } //여기 아무거나 쓰면 됨?
+
+
+  } 
+  render{
+    layout{      
+      section{        
+        content{
+
+
+
+          title-card{
+            size (M)
+            title-area{
+              halign (Center)
+              // valign(Center)
+              slot2{
+                single-line{
+                  text{
+                    style(Detail_L)
+                    value("셔틀 종류: #{value(this.shuttleType)}")
+                  }
+                }
+              }
+            }
+          }
+          divider
+        }
+      }
+    }
+  }
+  
+  conversation-drivers{
+    conversation-driver{
+      template ("#{value(this.shuttleType)} 셔틀은 언제 와?")
+    }
+  }
+  
+}
+
+
+        // hbox{
+        //   content{
+        //     vbox{
+        //       valign (Baseline)
+        //       halign (End)
+        //       content{
+        //         single-line{
+        //           text{
+        //             style(Detail_L)
+        //             value("셔틀 종류: #{value(this.shuttleType)}")
+        //           }
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
+
+        // single-line{
+        //   text{
+        //     style(Detail_L)
+        //     value("걸리는 시간은 #{value(requiredResult.requiredTime)}분 입니다!")
+        //   }
+      

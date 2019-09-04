@@ -1,0 +1,77 @@
+action (SearchBooks) {
+  type (Search)
+  description (책 정보를 찾는다.)
+  collect {
+    input-group(initial){
+      requires (ZeroOrMoreOf)
+      collect{
+        input (title) {
+          type (Title)
+          min (Optional) max (One)
+        }
+        input (category){
+          type (Category)
+          min (Optional) max (Many)
+        }
+        input (author){
+          type (Author)
+          min (Optional) max (Many)
+        }
+      }
+
+      validate{
+        // halt {
+        //   dialog {
+        //     template (dd)   
+        //   }
+        // }
+        if (!exists(title) && !exists(category) && !exists(author)){
+        // if(!exists(initial)){
+          prompt{
+            
+            // allow-other (true)
+
+            // max (3)
+            // min (1)
+            
+            dialog{
+              template (제목, 저자, 주제 중 한가지는 입력하셔야 합니다!)
+            }
+
+
+
+          }
+        }
+      }
+    }
+
+    input(libraryEnum){
+      type (LibraryEnum)
+      min (Optional) max (One)
+    }
+
+    input (period){
+      type (Period)
+      min (Optional) max (Many)
+    }
+    input (borrowable){
+      type (Borrowable)
+      min (Optional) max (One)
+    }
+
+
+  }
+  output (SearchBooksResult){
+    throws{
+      error (NoBook){
+        on-catch{
+          halt{
+            dialog(해당 도서를 찾을 수 없습니다.)
+          }
+        }
+      }
+
+    }
+  }
+
+}

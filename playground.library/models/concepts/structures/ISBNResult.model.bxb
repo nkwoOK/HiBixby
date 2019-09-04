@@ -1,0 +1,12 @@
+structure (ISBNResult) {
+  description (일단 NO RETURN?)
+  property (uri){
+    type (Uri)
+  }
+  // property (__PROPERTY_NAME__) {
+  //   type (__PROPERTY_TYPE__)
+  //   min (Optional) max (One)
+  // }
+}
+
+

@@ -1,0 +1,5 @@
+train (t-22sqxnaplqy935j3mx8i52ate) {
+  utterance ("[g:SearchBooksResult] (학술문화관)[v:LibraryEnum:학술문화관]에서 (빌릴 수 있는)[v:Borrowable:이용가능] (조앤 롤링)[v:Author]의 (해리 포터)[v:Title] 찾아줘")
+  plan (Y2BnUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQRaLvFN+UVF+eWJSTipW7T4Q2jWvNJdBDb/xdZl5mSWZiTkMkljUOZaWZOQXMUhgkQrJLAFazsbAyMDEwMzAwsAKZDMAeSDIAoSMDMiAFYxBKoGqAA==)
+  last-modified (1550027295303)
+}

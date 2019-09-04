@@ -1,0 +1,192 @@
+layout-macro-def (book-detail-macro){
+  params{
+    param (result){
+      type (SearchBooksResult)
+      max (Many)
+      min (Required)
+    }
+  }
+
+  content{
+
+    section{
+      content{
+        compound-card{
+          content{
+            paragraph{
+
+              style(Title_M)
+              value("#{value(result.title)}")
+            }
+          }
+
+          on-click{
+            intent{
+              goal: playground.library.ISBNResult
+              value { $expr(result.locationStructure.iSBN)}
+            }
+          }
+
+        }
+
+//         paragraph{
+// 
+//           style(Title_M)
+//           value("#{value(result.title)}")
+//         }
+
+
+        // 밑에가 안보이나봐 ,!!
+        paragraph{
+
+          style(Title_S)
+          value{
+            if(exists(result.period)){
+              template ("#{value(result.author)}, #{value(result.period)}")
+            }
+            else{
+              template ("#{value(result.author)}")
+            }
+            // value("#{value(result.author)}, #{value(result.period)}")
+          }
+        }
+        // 
+        //         paragraph{
+        //           style(Detail_M)
+        //           value("#{size(result.locationStructure)}")
+        //         }
+
+        for-each (result.locationStructure){
+          as (locationStructure){
+            hbox{
+              content{
+                vbox{
+                  content{
+                    if (locationStructure.borrowable=='이용가능'){
+                      text{
+                        style(Detail_M)
+                        value("#{value(locationStructure.location)}")
+                      }
+                    }
+                    else{
+                      text{
+                        style(Detail_M_Soft)
+                        value("#{value(locationStructure.location)}")
+                      }
+                    }
+                  }
+                }
+                vbox{
+                  content{
+                    if (locationStructure.borrowable=='이용가능'){
+                      text{
+                        style(Detail_L)
+                        value("#{value(locationStructure.borrowable)}")
+                      }
+                    }
+                    else{
+                      text{
+                        style(Detail_L_Soft)
+                        value("#{value(locationStructure.borrowable)}")
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+
+
+        // single-line{
+        //   if (locationStructure.borrowable=='이용가능'){
+        //     text{
+        //       style(Detail_L)
+        //       value("#{value(locationStructure)}")
+        //     }
+        //   }
+        //   else{
+        //     text{
+        //       style(Detail_L_Soft)
+        //       value("#{value(locationStructure)}")
+        //     }
+      }
+    }
+  }
+
+}
+
+
+
+
+
+//         layout-macro (locationStructure-macro){
+//           
+//           param (locationStructure){
+//             
+//             expression (result.locationStructure)
+//             
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+//         paragraph{
+//           
+//           style{ // 고쳐야함
+//             if(locationStructure.borrowable!='이용가능'){
+//               template(Detail_L_Soft)
+//             }
+//             else{
+//               template(Detail_L)
+//             }
+//           }
+//           value{
+//             // template ("ff")
+//             template ("#{value(result.locationStructure)}")
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// hbox{
+//   content{
+//     vbox{
+//       content{
+//         single-line{
+//           text{
+//             style(Detail_M)
+//             value("#{value(result.locationA)}")
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+
+
+
+//         paragraph{
+//           style{ // 고쳐야함
+//             if(result.locationA.locationStructure.borrowable!='이용가능'){
+//               template(Detail_L_Soft)
+//             }
+//             else{
+//               template(Detail_L)
+//             }
+//           }
+//           value{
+//             template ("#{value(result.locationA)}")
+//           }
+//         }
+// 
+//       }
+//     }
+// 
+

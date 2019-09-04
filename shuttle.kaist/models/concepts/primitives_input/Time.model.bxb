@@ -1,0 +1,5 @@
+structure (Time) {
+  description (information about time input(current, designated, etc...))
+  extends(viv.time.DateTimeExpression)
+}
+// 따로 만들 필요 x. 

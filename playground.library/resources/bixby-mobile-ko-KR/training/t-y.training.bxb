@@ -1,0 +1,10 @@
+train (t-yq6lqlatq2d1i0e0h2lrun4as) {
+  utterance ("[g:SearchBooksResult:continue] (학술문화관)[v:LibraryEnum:학술문화관]에 있는 책들만 찾아줘")
+  plan (Y2BmUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw68Kq7wPhHbNK81lYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1549950828140)
+}
+train (t-yrbjostzqiei6ho8sqyh74xki) {
+  utterance ("[g:SearchBooksResult] 도서관에 (성공하는 사람들의 7가지 습관)[v:Title]이라는 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033055818)
+}

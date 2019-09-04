@@ -1,0 +1,10 @@
+train (t-ldb9vhnjzgjicu95mvw55igqv) {
+  utterance ("[g:SearchBooksResult] 도서관에 (빨간 머리 앤)[v:Title] 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033052826)
+}
+train (t-lwagzpp0qlu7syr3lj05onugl) {
+  utterance ("[g:SearchBooksResult] 도서관에 (철학)[v:Category] 관련 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgzQWdc6JJanp+UWVDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033053013)
+}

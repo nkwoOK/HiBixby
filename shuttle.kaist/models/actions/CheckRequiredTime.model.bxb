@@ -1,0 +1,62 @@
+action (CheckRequiredTime) {
+  description (__DESCRIPTION__)
+  type(Calculation)
+  collect {
+    input (departure) {
+      type (Departure)
+      min (Required) max (One)
+      
+      validate{
+        if (!exists(departure)) {
+          halt {
+            dialog {
+              template ("No departure information")
+            }
+          }
+        }
+      }
+    }
+    
+    input (destination) {
+      type (Destination)
+      min (Required) max (One)
+      validate{
+        if (!exists(destination)) {
+          halt {
+            dialog {
+              template ("No destination information")
+            }
+          }
+        }
+      }
+    }
+    input (shuttleType){
+      type (ShuttleType)
+      min (Optional) max (One)
+    }
+    
+  }
+  
+  output (RequiredResult) {
+    throws {
+      error (NoType){
+        on-catch{
+          halt{
+            dialog{
+              template ("맞는 셔틀버스 노선이 존재하지 않습니다")
+            }
+          }
+        }
+      }
+      error (NoWay){
+        on-catch{
+          halt{
+            dialog{
+              template ("이 방향으로는 갈 수 없습니다")
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+structure (TimeToResult) {
+  description ( Determine board time to go destination until certain time)
+  property (timeto) {
+    type (TimeTo)
+    min (Optional) max (Many)
+  }
+}

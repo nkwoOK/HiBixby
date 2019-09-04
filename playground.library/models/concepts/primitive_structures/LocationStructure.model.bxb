@@ -1,0 +1,22 @@
+structure (LocationStructure) {
+  description (도서 위치 및 대출 가능 여부)
+  //   property (locationA) {
+  //   type (LocationA)
+  //   min (Optional) max (Many)
+  // }
+  property (location) {
+    type (Location)
+    min (Optional) max (One)
+  }
+  property (borrowable){
+    type (Borrowable)
+    min(Optional) max(One)
+
+  }
+  property (iSBN){
+    type (ISBN)
+    min (Optional) max (One)
+  }
+}
+
+// 

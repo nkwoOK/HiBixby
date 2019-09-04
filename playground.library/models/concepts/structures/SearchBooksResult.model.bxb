@@ -1,0 +1,39 @@
+structure (SearchBooksResult) {
+  description (책책)
+  property (title) {
+    type (Title)
+    min (Optional) max (One)
+  }
+  property (author){
+    type (Author)
+      min(Optional) max (One)
+  }
+  
+  property (locationStructure){ //얘네를 structure로 합쳐야 할 듯?
+    type (LocationStructure)
+    min (Optional) max (Many)
+  }
+  // property (locationstructure){ //여러 곳에 존재하는 책들 ㅎㅎ..
+  //   type (LocationStructure)
+  //   min (Optional) max (Many)
+  // }
+  property (period){
+    type (Period)
+    min (Optional) max (One)
+  }
+  property(fileName){
+    type (FileName)
+    min (Optional) max (Many)
+  }
+  
+  // property (iSBN){
+  //   type (ISBN)
+  //   min (Optional) max (One)
+  // }
+  
+  // property (category){
+  //   type (Category)
+  //   min (Optional) max (One)
+  // }
+  
+}

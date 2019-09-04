@@ -1,0 +1,10 @@
+train (t-qy1bgk2ddwv71a9a8uy37gcti) {
+  utterance ("[g:SearchBooksResult] 도서관에 (해리 포터)[v:Title] 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgwQWdSGZJTmpDMwMjAxMQJIBTDMyQAATEAPFAA==)
+  last-modified (1550033053649)
+}
+train (t-qyadndtgme1nnawccrsu0vumd) {
+  utterance ("[g:SearchBooksResult] 도서관에 (기욤 뮈소)[v:Author] 작가 책 있어?")
+  plan (Y2BhUCnISaxML8ovzUvRy8lMKkosqtQLTk0sSs5wys/PLg5KLS7NKWGQw6+KQQ2/fF1mXmZJZmIOgyQWdY6lJRn5RQzMDIwMTECSAUwzMkAAExADxQA=)
+  last-modified (1550033053830)
+}

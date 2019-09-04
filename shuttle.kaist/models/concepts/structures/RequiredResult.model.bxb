@@ -1,0 +1,11 @@
+structure (RequiredResult) {
+  description (Check required shuttle time )
+  property (requiredTime) {
+    type (RequiredTime)
+    min (Optional) max (One)// min optional인가? 꼭 있긴 할 것 같은데 err처리 해야 할 듯. 
+  }
+  property(shuttleType){
+    type(ShuttleType)
+    min (Optional) max (One)
+  }
+}
